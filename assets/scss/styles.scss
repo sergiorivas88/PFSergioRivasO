@@ -33,15 +33,13 @@ ul1 {
 
         a {
             text-decoration: none;
-            color: white;
+            color: $color-fondo;
             padding: 20px;
             background-color: rgb(100, 139, 0);
         }
 
     }
 }
-
-
 
 .relleno {
     color: grey;
@@ -240,7 +238,7 @@ img {
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(221, 158, 122, 0.558);
+    background: $color-hover;
     transition: transform 0.5s;
     display: flex;
     justify-content: center;
