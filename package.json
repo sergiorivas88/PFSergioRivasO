@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "sass": "^1.56.1"
+  },
+  "name": "pfsergiorivaso",
+  "version": "1.0.0",
+  "description": "Entrega Final Desarrollo Web CODER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass  scss/styles.scss assets/styles.css",
+    "watch-css": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiorivas88/PFSergioRivasO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiorivas88/PFSergioRivasO/issues"
+  },
+  "homepage": "https://github.com/sergiorivas88/PFSergioRivasO#readme"
+}
