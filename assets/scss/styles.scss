@@ -102,19 +102,19 @@ header {
 nav {
     text-align: right;
     padding: 30px 50px 0 0;
-
     nav>a {
         color: white;
         font-weight: 300;
         text-decoration: none;
         margin-right: 10px;
-
         nav>a:hover {
             text-decoration: underline;
         }
     }
 
 }
+
+
 
 header .textos-header {
     display: flex;
@@ -124,9 +124,13 @@ header .textos-header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
-
 }
+
+.textos-header h1 {
+    font-size: 50px;
+    color: white;
+}
+
 .textos-header h2 {
     font-size: 30px;
     font-weight: 300;
