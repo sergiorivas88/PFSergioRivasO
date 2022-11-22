@@ -1,0 +1,19 @@
+@mixin mapa {
+    background-color: #444;
+    width: 200px;
+    height: 200px;
+    padding-top: 5px;
+    padding: 10px;
+}
+
+.mapa-1 {
+    @include mapa;
+}
+
+.mapa-2 {
+    @include mapa;
+}
+
+.mapa-3 {
+    @include mapa;
+}

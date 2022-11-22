@@ -1,3 +1,25 @@
+.mapa-1 {
+    background-color: #444;
+    width: 200px;
+    height: 200px;
+    padding-top: 5px;
+    padding: 10px;
+}
 
+.mapa-2 {
+    background-color: #444;
+    width: 200px;
+    height: 200px;
+    padding-top: 5px;
+    padding: 10px;
+}
+
+.mapa-3 {
+    background-color: #444;
+    width: 200px;
+    height: 200px;
+    padding-top: 5px;
+    padding: 10px;
+}
 
 /*# sourceMappingURL=mixin.css.map */
