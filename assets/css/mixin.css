@@ -1,25 +1,25 @@
 .mapa-1 {
-    background-color: #444;
-    width: 200px;
-    height: 200px;
-    margin-top: 5px;
-    padding: 10px;
+  background-color: rgba(17, 17, 17, 0.0666666667);
+  width: 300px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
 }
 
 .mapa-2 {
-    background-color: #444;
-    width: 200px;
-    height: 200px;
-    margin-top: 5px;
-    padding: 10px;
+  background-color: #222;
+  width: 500px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
 }
 
 .mapa-3 {
-    background-color: #444;
-    width: 200px;
-    height: 200px;
-    margin-top: 5px;
-    padding: 10px;
+  background-color: #333;
+  width: 600px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=mixin.css.map */
