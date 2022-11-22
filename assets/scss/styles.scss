@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+$colorbg: tomato;
+
+body{
+    background-color: $colorbg;
+    background-color: white;
+    padding: 15px;
+}
+
 .title{
     color:salmon;
     font-size: large;

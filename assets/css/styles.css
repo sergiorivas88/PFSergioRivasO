@@ -2,10 +2,30 @@
   color: rosybrown;
 }
 
+.error, .todoBien, .mensaje {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  color: #333;
+}
+
+.todoBien {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: tomato;
+  background-color: white;
+  padding: 15px;
 }
 
 .title {
