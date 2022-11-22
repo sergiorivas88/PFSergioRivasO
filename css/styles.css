@@ -1,11 +1,11 @@
+#Prueba p {
+  color: rosybrown;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-#contenido-textos p {
-  color: #642a73;
 }
 
 body {
