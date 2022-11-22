@@ -18,15 +18,24 @@
   box-sizing: border-box; }
 
 body {
-  background-color: tomato;
-  background-color: white;
-  padding: 15px; }
+  background-color: rgba(255, 255, 255, 0.233); }
 
-.title {
-  color: salmon;
-  font-size: large; }
+ul1 {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0; }
+  ul1 li {
+    display: inline-block; }
+    ul1 li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      background-color: #648b00; }
 
-.text {
+.relleno {
+  color: grey; }
+
+.relleno1 {
   color: white; }
 
 .link {
