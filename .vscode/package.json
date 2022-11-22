@@ -1,0 +1,20 @@
+{
+  "name": "proyecto_casa_de_piedra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass  scss/styles.scss assets/styles.css",
+    "watch-css": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "author": "Sergio Rivas Osano",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "sass": "^1.56.1"
+  }
+}
