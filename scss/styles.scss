@@ -7,6 +7,10 @@
 
 }
 
+#contenido-textos p{
+    color:#642a73
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
@@ -449,7 +453,7 @@ input[type=submit]:hover {
         width: 99%;
     }
 
-    .sobre-nosotros .contenido-textos {
+    .sobre-nosotros .contenido-textos  {
         width: 95%;
     }
 
