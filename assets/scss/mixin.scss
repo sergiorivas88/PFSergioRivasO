@@ -1,4 +1,4 @@
-@mixin mapa ($fondo, $ancho) {
+@mixin mapa ($fondo, $ancho:200px) {
     background-color: $fondo;
     width: $ancho;
     height: 200px;
@@ -7,11 +7,11 @@
 }
 
 .mapa-1 {
-    @include mapa(#1111,300px);
+    @include mapa(#111,300px);
 }
 
 .mapa-2 {
-    @include mapa(#222,500px);
+    @include mapa(#222,);
 }
 
 .mapa-3 {
