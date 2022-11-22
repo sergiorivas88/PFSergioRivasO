@@ -39,6 +39,10 @@ ul1 li a {
   color: white;
   padding: 20px;
   background-color: rgb(100, 139, 0);
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  
 }
 
 .relleno {
