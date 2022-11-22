@@ -2,4 +2,18 @@
   color: rosybrown;
 }
 
+.error, .todoBien, .mensaje {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  color: #333;
+}
+
+.todoBien {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
 /*# sourceMappingURL=dise%C3%B1o.css.map */

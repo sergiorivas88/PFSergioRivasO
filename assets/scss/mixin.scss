@@ -7,13 +7,16 @@
 }
 
 .mapa-1 {
-    @include mapa(#111,300px);
+    @include mapa(rgba(17, 17, 17, 0.522),300px);
 }
 
 .mapa-2 {
-    @include mapa(#222,);
+    @include mapa(rgba(34, 34, 34, 0.407),);
 }
 
 .mapa-3 {
-    @include mapa(#333,600px);
+    @include mapa(rgba(51, 51, 51, 0.182),600px);
 }
+
+
+

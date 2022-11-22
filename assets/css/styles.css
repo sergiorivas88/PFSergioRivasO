@@ -1,8 +1,29 @@
+#Prueba p {
+  color: rosybrown;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.title {
+  color: salmon;
+  font-size: large;
+}
+
+.text {
+  color: white;
+}
+
+.link {
+  color: inherit;
+}
+
+.mapa {
+  margin-top: 25px;
+  margin-bottom: 100px;
 }
 
 body {
