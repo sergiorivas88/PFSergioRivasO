@@ -14,23 +14,46 @@ body {
     padding: 0;
 }
 
-.button{
+.button {
     border: none;
     padding: 15px 30px;
     text-align: center;
-    font-size:22px;
-    cursor:pointer;
+    font-size: 22px;
+    cursor: pointer;
     box-shadow: 2px 2px 10px black;
 }
+
 .verde {
     @extend .button;
     background: green;
 
 }
-.container{
-    text-align: center;
+
+.amarillo {
+    @extend .button;
+    background: yellow;
+
 
 }
+
+.rojo {
+    @extend .button;
+    background: red;
+
+
+}
+
+.container {
+    @extend .button;
+    text-align: center;
+    font-size: 30px;
+    background: blue;
+
+
+
+
+}
+
 .contenedor {
     padding: 60px 0;
     width: 90%;
@@ -467,7 +490,7 @@ input[type=submit]:hover {
         width: 99%;
     }
 
-    .sobre-nosotros .contenido-textos  {
+    .sobre-nosotros .contenido-textos {
         width: 95%;
     }
 
